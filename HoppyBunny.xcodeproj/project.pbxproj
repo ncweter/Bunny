@@ -14,6 +14,8 @@
 		1A05373E1D54309E0032FE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A05373C1D54309E0032FE2A /* Main.storyboard */; };
 		1A0537401D54309E0032FE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A05373F1D54309E0032FE2A /* Assets.xcassets */; };
 		1A0537431D54309E0032FE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0537411D54309E0032FE2A /* LaunchScreen.storyboard */; };
+		1A05374D1D543DA60032FE2A /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1A05374B1D543DA60032FE2A /* sfx_flap.caf */; };
+		1A05374E1D543DA60032FE2A /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1A05374C1D543DA60032FE2A /* sfx_goal.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1A05373F1D54309E0032FE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A0537421D54309E0032FE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A0537441D54309E0032FE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A05374B1D543DA60032FE2A /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
+		1A05374C1D543DA60032FE2A /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +68,20 @@
 				1A05373A1D54309E0032FE2A /* GameViewController.swift */,
 				1A05373C1D54309E0032FE2A /* Main.storyboard */,
 				1A05373F1D54309E0032FE2A /* Assets.xcassets */,
+				1A05374A1D543DA60032FE2A /* SFX */,
 				1A0537411D54309E0032FE2A /* LaunchScreen.storyboard */,
 				1A0537441D54309E0032FE2A /* Info.plist */,
 			);
 			path = HoppyBunny;
+			sourceTree = "<group>";
+		};
+		1A05374A1D543DA60032FE2A /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				1A05374B1D543DA60032FE2A /* sfx_flap.caf */,
+				1A05374C1D543DA60032FE2A /* sfx_goal.caf */,
+			);
+			path = SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A0537371D54309E0032FE2A /* GameScene.sks in Resources */,
+				1A05374D1D543DA60032FE2A /* sfx_flap.caf in Resources */,
 				1A0537431D54309E0032FE2A /* LaunchScreen.storyboard in Resources */,
 				1A0537401D54309E0032FE2A /* Assets.xcassets in Resources */,
 				1A05373E1D54309E0032FE2A /* Main.storyboard in Resources */,
+				1A05374E1D543DA60032FE2A /* sfx_goal.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +310,7 @@
 				1A0537491D54309E0032FE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
