@@ -16,6 +16,7 @@
 		1A0537431D54309E0032FE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0537411D54309E0032FE2A /* LaunchScreen.storyboard */; };
 		1A05374D1D543DA60032FE2A /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1A05374B1D543DA60032FE2A /* sfx_flap.caf */; };
 		1A05374E1D543DA60032FE2A /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1A05374C1D543DA60032FE2A /* sfx_goal.caf */; };
+		1AF4F73B1D54842B00192B92 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4F73A1D54842B00192B92 /* CGFloat+Extensions.swift */; };
 		1AFD85F61D545E20001FD70D /* hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1AFD85F51D545E20001FD70D /* hero.sks */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		1A0537441D54309E0032FE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A05374B1D543DA60032FE2A /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
 		1A05374C1D543DA60032FE2A /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
+		1AF4F73A1D54842B00192B92 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 		1AFD85F51D545E20001FD70D /* hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = hero.sks; path = ../hero.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 				1A0537341D54309D0032FE2A /* AppDelegate.swift */,
 				1A0537361D54309E0032FE2A /* GameScene.sks */,
 				1AFD85F51D545E20001FD70D /* hero.sks */,
+				1AF4F73A1D54842B00192B92 /* CGFloat+Extensions.swift */,
 				1A0537381D54309E0032FE2A /* GameScene.swift */,
 				1A05373A1D54309E0032FE2A /* GameViewController.swift */,
 				1A05373C1D54309E0032FE2A /* Main.storyboard */,
@@ -164,6 +167,7 @@
 			files = (
 				1A0537391D54309E0032FE2A /* GameScene.swift in Sources */,
 				1A05373B1D54309E0032FE2A /* GameViewController.swift in Sources */,
+				1AF4F73B1D54842B00192B92 /* CGFloat+Extensions.swift in Sources */,
 				1A0537351D54309D0032FE2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
